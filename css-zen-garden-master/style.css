@@ -1,0 +1,378 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/*MOBILE VIEW*/
+
+.body {
+    font-family: "Helvetica", "Arial Rounded", "lucida console", sans-serif;
+    font-style: none;
+    background-color: #181324;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0px 50px 0px 50px;
+    font-size: 0.75em;
+    color: aliceblue;
+    line-height: 1.5rem;
+}
+
+h3 {
+    font-size: 1em;
+    margin-left: 50px;
+    padding-top: 50px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.33em;
+    text-align: center;
+    color: aliceblue;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.33em;
+    color: aliceblue;
+    padding-top: 40px;
+    border-top: 4px solid white;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+a {
+    font-style: none;
+    text-decoration-line: none;
+    font-size: 0.75rem;
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+.design-name {
+    color: #df3d10;
+}
+
+li abbr {
+    text-decoration: none;
+    color: #df3d10;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-left: 10px;
+}
+
+li a:hover {
+    background: grey;
+    color: aliceblue;
+}
+
+header {
+    display: grid;
+    grid-column: 1/2;
+    background-image: url("image/bkg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 300px;
+}
+
+.banner {
+    max-width: 100%;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.summary {
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.preamble {
+    display: inline-block;
+    background: #ff8e04;
+    padding-bottom: 50px;    
+}
+
+.preamble:hover {
+    background: #dd7605;
+}
+
+
+.preamble:before {
+    content: url("image/road-solid.svg");
+    width: 15%;
+    background: white;
+    float: left;
+    border-radius: 1600px;
+    padding: 50px;
+    margin: 50px;
+    opacity: 0.75;
+}
+
+
+.explanation:before {
+    content: url("image/cat-solid.svg");
+    width: 15%;
+    float: right;
+    background: white;
+    border-radius: 1600px;
+    padding: 50px;
+    margin: 50px;
+    opacity: 0.5;
+
+}
+
+.explanation {
+    padding-bottom: 50px;
+}
+
+.explanation:hover {
+    background: black;
+}
+
+.participation {
+    background: #ff8e04;
+    padding-bottom: 50px;
+}
+
+.participation:hover {
+    background: #dd7605;
+}
+
+.participation:before {
+    content: url("image/user-astronaut-solid.svg");
+    width: 15%;
+    float: left;
+    background: white;
+    border-radius: 1600px;
+    padding: 50px;
+    margin: 50px;
+    opacity: 0.75;
+
+}
+
+.benefits {
+    padding-bottom: 50px;
+}
+
+.benefits:hover {
+    background: black;
+}
+
+.benefits:before {
+    content: url("image/carrot-solid.svg");
+    width: 15%;
+    float: right;
+    background: white;
+    border-radius: 1600px;
+    padding: 50px;
+    margin: 30px;
+    opacity: 0.5;
+
+}
+
+.requirements {
+    background: #df3d10;
+    padding-bottom: 50px;
+}
+
+.requirements:hover {
+    background: #b32c1e;
+}
+
+.requirements:before {
+    content: url("image/file-alt-solid.svg");
+    width: 10%;
+    float: left;
+    background: white;
+    border-radius: 1000px;
+    padding: 80px;
+    margin: 30px;
+    opacity: 0.75;
+
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background: #443c5b;
+}
+
+.footer p {
+    font: white;
+}
+
+footer a {
+    text-align: center;
+}
+
+.aside {
+    display: flex;
+}
+
+.design-archives {
+/*    width: 50%;*/
+    align-content: flex-start;
+    float: left;
+}
+
+.zen-resources {
+    align-content: flex-start;
+/*    width: 50%;*/
+    float: left;
+    margin-bottom: 100px;
+}
+
+/*TABLET VIEW*/
+@media screen and (min-width:768px) {
+    header {
+        height: 400px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.33em;
+    }
+
+    h2 {
+        font-size: 1.77em;
+    }
+
+    h1 {
+        font-size: 3.09em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+    li a {
+        font-size: 1em;
+    }
+
+    .explanation {
+        margin-top: 0px;
+    }
+
+
+    .participation {
+        padding-bottom: 50px;
+    }
+
+    .benefits {
+        padding-bottom: 50px;
+    }
+
+    .benefits:before {
+        padding-top: 0px;
+        margin-top: 0px
+    }
+
+    .requirements {
+        padding-top: 0px;
+    }
+
+    aside {
+        display: flex;
+        align-content: flex-start;
+    }
+
+    .design-selection {
+        align-content: flex-start;
+
+    }
+
+    .design-archives {
+        align-content: flex-start;
+    }
+
+}
+
+
+/*DESKTOP VIEW*/
+
+@media screen and (min-width: 1024px) {
+    
+    .summary {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .preamble {
+        padding-bottom: 150px;
+    }
+
+    .explanation {
+        padding-bottom: 150px;
+    }
+
+    .participation {
+        padding-bottom: 150px;
+    }
+
+    .benefits {
+        padding-bottom: 100px;
+    }
+
+    .benefits:before {
+        width: 12%;
+        margin-right: 200px;
+        padding-top: 30px;
+    }
+
+    .benefits p {
+        margin-left: 200px;
+    }
+
+    .benefits h3 {
+        margin-left: 200px;
+    }
+
+    .requirements {
+        padding-bottom: 80px;
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .design-selection {
+        min-width: 100%;
+    }
+
+    .design-archives {
+        min-width: 100%;
+    }
+
+    .zen-resources {
+        width: 100%;
+    }
